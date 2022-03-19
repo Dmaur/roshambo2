@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(49, 21, 21);
+  background-color: rgb(30, 102, 20);
 }
 
 #header {
@@ -61,24 +61,94 @@ body {
 
 #gameDispBox {
   display: flex;
-  border-style: groove;
-  height: 500px;
+  height: 300px;
   width: 600px;
   justify-content: space-evenly;
+  
 }
 
 #pDisp {
   width: 250px;
   height: 450px;
-  border-color: aquamarine;
-  border-style: dashed;
   margin-top: 20px;
+}
+
+#yChoice {
+  text-align: center;
+  font-size: 55px;
+  color: rgb(228, 191, 29);
+  background-color: rgb(51, 56, 61);
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
+
+  
+
+}
+
+#pTxt {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(228, 191, 29);
+  background-color: rgb(51, 56, 61);
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
+}
+
+#pNum {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(228, 191, 29);
+  background-color: rgb(51, 56, 61);
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
 }
 
 #cDisp {
   width: 250px;
   height: 450px;
-  border-color: blue;
-  border-style: dashed;
   margin-top: 20px;
+}
+
+#robotChoice {
+  text-align: center;
+  font-size: 55px;
+  color: rgb(228, 191, 29);
+  background-color: rgb(51, 56, 61);
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
+
+}
+
+#cTxt {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(228, 191, 29);
+  background-color: rgb(51, 56, 61);
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
+
+}
+
+#cNum {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(228, 191, 29);
+  background-color: rgb(51, 56, 61);
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
+}
+
+#WorL {
+  text-align: center;
+  color: rgb(228, 191, 29);
+  font-size: 100px;
+  height: 500px;
+  width: 500x;
+
 }
